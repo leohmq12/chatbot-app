@@ -1,12 +1,51 @@
+name: chatbotApp
+description: A Flutter app for chatbot functionality.
+
+# Add the SDK constraint here
+environment:
+  sdk: '>=3.7.0 <4.0.0'  # Specify the minimum Dart SDK version
+
+# Dependencies for Flutter
 dependencies:
   flutter:
-    sdk: flutter
-  firebase_core: latest_version
-  firebase_auth: latest_version
-  cloud_firestore: latest_version
-  flutter_local_notifications: latest_version
-  qr_code_scanner: latest_version
-  url_launcher: latest_version
-  shared_preferences: latest_version
-  hive: latest_version
-  hive_flutter: latest_version
+    sdk: flutter  # Required for Flutter apps
+
+  # Firebase dependencies
+  firebase_core: ^2.15.0  # Firebase Core
+  firebase_auth: ^4.9.0  # Firebase Authentication
+  cloud_firestore: ^4.8.0  # Cloud Firestore
+
+  # Local notifications
+  flutter_local_notifications: ^15.1.1  # Local notifications
+
+  # QR code scanning
+  qr_code_scanner: ^1.0.1  # QR code scanner
+
+  # URL launching
+  url_launcher: ^6.1.11  # Launch URLs
+
+  # Local storage
+  shared_preferences: ^2.2.2  # Shared preferences for simple key-value storage
+  hive: ^2.2.3  # Hive for local database
+  hive_flutter: ^1.1.0  # Hive integration with Flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  # Required for Flutter testing
+
+  # Add other dev dependencies here (if needed)
+  # Example:
+  # flutter_lints: ^2.0.0  # For linting and code analysis
+
+# Flutter-specific configuration
+flutter:
+  uses-material-design: true  # Enables Material Design icons
+
+  # Add assets (images, fonts, etc.) here
+  # Example:
+  # assets:
+  #   - images/logo.png
+  # fonts:
+  #   - family: MyCustomFont
+  #     fonts:
+  #       - asset: fonts/MyCustomFont-Regular.ttf
