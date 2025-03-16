@@ -16,7 +16,7 @@ class ChatScreen extends StatelessWidget {
           sendMessage: SendMessage(
             repository: ChatbotRepositoryImpl(
               remoteDataSource: ChatbotRemoteDataSource(
-                apiKey: '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',
+                apiKey: 'Will change once deployed',
               ),
             ),
           ),
