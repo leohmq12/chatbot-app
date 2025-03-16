@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
-import 'tax_info_screen.dart';
-import 'calculator_screen.dart';
-import 'auth_screen.dart';
-import '../widgets/app_drawer.dart';
+import 'tax_info.dart';
+import 'calculator.dart';
+import 'auth.dart';
+import 'widgets/app_drawer.dart';
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ACES Accountants'),
+        title: const Text('ACES Accountants'),
       ),
-      drawer: AppDrawer(),
+      drawer: const AppDrawer(),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -23,7 +25,7 @@ class HomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => TaxInfoScreen()),
                 );
               },
-              child: Text('Tax Information'),
+              child: const Text('Tax Information'),
             ),
             ElevatedButton(
               onPressed: () {
@@ -32,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => CalculatorScreen()),
                 );
               },
-              child: Text('Tax Calculator'),
+              child: const Text('Tax Calculator'),
             ),
             ElevatedButton(
               onPressed: () {
@@ -41,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => AuthScreen()),
                 );
               },
-              child: Text('Login/Signup'),
+              child: const Text('Login/Signup'),
             ),
           ],
         ),
