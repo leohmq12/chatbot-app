@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'screens/home.dart';
 
 void main() async {
@@ -14,9 +15,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ACES Accountants',
+      title: 'Tax Buddy',
       theme: ThemeData(
-        primarySwatch: Colors.blue, // Replace with ACES color scheme
+        primarySwatch: Colors.blue,
+        textTheme: GoogleFonts.jostTextTheme(
+          Theme.of(context).textTheme,
+        ),
       ),
       home: const HomeScreen(),
     );

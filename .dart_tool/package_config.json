@@ -74,6 +74,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "cupertino_icons",
+      "rootUri": "file:///C:/Users/X1%20Yoga/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "dbus",
       "rootUri": "file:///C:/Users/X1%20Yoga/AppData/Local/Pub/Cache/hosted/pub.dev/dbus-0.7.11",
       "packageUri": "lib/",
@@ -180,6 +186,12 @@
       "rootUri": "file:///C:/src/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.7"
+    },
+    {
+      "name": "google_fonts",
+      "rootUri": "file:///C:/Users/X1%20Yoga/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-4.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "google_identity_services_web",
@@ -548,7 +560,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-03-16T20:52:44.720646Z",
+  "generated": "2025-03-18T00:26:24.261927Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///C:/src/flutter",
